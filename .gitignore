@@ -1,0 +1,11 @@
+node_modules/
+dist/
+data/
+logs/
+config.json
+legacy-java/
+*.log
+.DS_Store
+downloads/
+*.pdf
+docs/agents/
