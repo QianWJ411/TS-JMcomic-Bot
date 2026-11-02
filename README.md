@@ -28,23 +28,16 @@ TeamSpeak 漫画下载机器人。以普通客户端身份进入频道，接收�
 
 1. 安装 Node.js 22 LTS。
 2. 下载整个.zip，完全解压。
-3. 双击 `scripts\setup.bat`，安装依赖并构建。
-4. 双击 `start.bat`，打开面板 <http://127.0.0.1:3000>。
-5. 在面板填写 TeamSpeak 地址、端口、昵称、频道。
-6. 如果下载需要代理，填写 Clash Verge 的 HTTP 或 SOCKS5 端口，点「测试代理」。
-7. 在 TeamSpeak 频道发送例如： `!jm 350234`。
+3. 双击 `start.bat`，自动安装依赖并构建。打开面板 <http://127.0.0.1:3000>。
+4. 在面板填写 TeamSpeak 地址、端口、昵称、频道。
+5. 如果下载需要代理，填写 Clash Verge 的 HTTP 或 SOCKS5 端口，点「测试代理」。
+6. 在 TeamSpeak 频道发送例如： `!jm 350234`。
 
-不上传文件、只把 PDF 写进服务端目录时，在面板「TeamSpeak 连接」填写上传目录，例如：
-
+由于技术不够，机器人是不上传文件，只把 PDF 写进服务端目录时，在面板「TeamSpeak 连接」填写上传目录，例如：
 ```text
 C:/teamspeak6-server-win-x64/files/virtualserver_1/channel_22
 ```
-
-也可以使用占位符：
-
-```text
-C:/teamspeak6-server-win-x64/files/virtualserver_1/{channelDir}
-```
+可以直接输入Windows的ts6文件系统的绝对地址，
 
 ## 指令
 
