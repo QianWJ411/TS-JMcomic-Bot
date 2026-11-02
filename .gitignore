@@ -8,4 +8,4 @@ legacy-java/
 .DS_Store
 downloads/
 *.pdf
-docs/agents/
+docs/agents/workspace.yaml
